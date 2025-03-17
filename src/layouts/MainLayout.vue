@@ -50,6 +50,12 @@ import { ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
+{
+    title: 'Home',
+    caption: 'First Page',
+    icon: 'home',
+    link: '/index'
+  },
   {
     title: 'About',
     caption: 'Discreption',
